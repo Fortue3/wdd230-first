@@ -1,6 +1,9 @@
-.home-grid{
-    column-width: 50%;
-}
+
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 main{
     text-align: center;
 }
