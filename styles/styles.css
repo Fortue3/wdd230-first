@@ -1,5 +1,6 @@
 .home-grid{
     column-width: 300px;
+    background-color: aliceblue;
 }
 .site-header__wrapper {
   display: flex;
@@ -10,8 +11,9 @@ main{
     text-align: center;
 }
 h2{
+    display: flex;
     background-color: aliceblue;
-    text-align: right;
+    text-align: center;
 }
 footer p {
 	color: rgb(84, 235, 104);
