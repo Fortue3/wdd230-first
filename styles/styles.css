@@ -1,0 +1,12 @@
+.home-grid{
+    column-width: 50%;
+}
+main{
+    text-align: center;
+}
+h2{
+    background-color: aliceblue;
+}
+footer p {
+	color: rgb(84, 235, 104);
+}
