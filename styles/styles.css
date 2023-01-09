@@ -1,6 +1,11 @@
+.container{
+    margin: 0 10%;
+}
 .home-grid{
+    display:grid;
+    grid-template-columns: 1/4fr 3/4fr ;
     column-width: 300px;
-    background-color: aliceblue;
+    background-color: rgb(17, 7, 145);
 }
 .site-header__wrapper {
   display: flex;
