@@ -19,6 +19,7 @@ float: left;
 .name{
     width:68%;
     float:right;
+    margin: 40%;
 }
 main{
     text-align: center;
