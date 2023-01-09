@@ -18,7 +18,7 @@ float: left;
 .name{
     width:68%;
     float:right;
-    margin: 0 10%;
+    padding: 10px 100px;
 }
 h2{
     margin: 0;
