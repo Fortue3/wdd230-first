@@ -3,8 +3,7 @@
 }
 .home-grid{
     display:grid;
-    grid-template-columns: 1/4fr 3/4fr ;
-    column-width: 300px;
+    grid-template-columns: 25% 70%;
     background-color: rgb(17, 7, 145);
 }
 .img{
