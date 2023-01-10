@@ -40,12 +40,12 @@ const months = [
 	"December"
 ];
 const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
+const dayName = d.getDay();
+const monthName = d.getMonth() + 1;
 const year = d.getFullYear();
-const hour = d.getFullYear();
-const minutes = d.getMinutes();
-const seconds = d.getSeconds();
-const fulldate = `${monthName} ${d.getDate()},${year}, ${d.getHours()}: ${minutes}: ${seconds}`;
+const hr = d.getHours();
+const mins = d.getMinutes();
+const sec = d.getSeconds();
+const fulldate = `${monthName}/${d.getDate()}/${year} ${hr}:${mins}:${sec}`;
+document.querySelector("#date2").textContent = "last updated:" + fulldate;
 
-document.querySelector("#date2").textContent = fulldate;
