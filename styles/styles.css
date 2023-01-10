@@ -18,10 +18,11 @@ float: left;
 .name{
     width:68%;
     float:right;
-    padding: 30% 100px 0;
+    padding: 20% 100px 0;
     justify-content: center;
     text-align: center;
     align-items: baseline;
+    color: white;
 }
 h2{
     margin: 0;
