@@ -1,5 +1,7 @@
 .container{
     margin: 0 10%;
+    font-family: 'Montserrat',Tenor sans;
+    
 }
 .home-grid{
     display:grid;
