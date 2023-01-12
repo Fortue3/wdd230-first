@@ -26,6 +26,9 @@ float: left;
     align-items: baseline;
     color: white;
 }
+h1{
+    font-style: underline;
+}
 h2{
     margin: 0;
     padding: 0;
