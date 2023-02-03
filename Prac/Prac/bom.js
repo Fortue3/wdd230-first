@@ -11,10 +11,9 @@ const button=document.addEventListener('click', function(){
 
       delbtn.addEventListener('click', function(){
         this.closest('li').remove();
-        // delbtn.parentElement.remove(li);
-        // li.parentNode.removeChild(li)
-        // document.getElementById('list').removeChild(li)
-        // document.getElementById('list').innerHTML=""
+    
+        
+          document.getElementById('list').remove(li)
         return
      })
 
