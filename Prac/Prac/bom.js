@@ -10,7 +10,12 @@ const button=document.addEventListener('click', function(){
       li.appendChild(delbtn)
 
       delbtn.addEventListener('click', function(){
-        this.remove();
+        this.closest('li').remove();
+        // delbtn.parentElement.remove(li);
+        // li.parentNode.removeChild(li)
+        // document.getElementById('list').removeChild(li)
+        // document.getElementById('list').innerHTML=""
+        return
      })
 
      document.getElementById('favchap').focus()
