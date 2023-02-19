@@ -308,3 +308,108 @@ picture img {
 	text-align: center;
 	margin-top: 20px;
 }
+
+/*============ discover ============*/
+
+.discover-main-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.discover-hero {
+	display: flex;
+	background-image: url("../images/row-bgimage-2.jpg");
+	background-size: cover;
+	height: 250px;
+	/*margin: 0 0 10px;*/
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: #03C988;
+	font-size: 38px;
+}
+
+.discover-main-section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*margin: 10px 0;*/
+	padding: 20px 0;
+	background-color: #00337C;
+	color: #03C988;
+}
+
+.discover-headings {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.about-heading {
+	text-align: center;
+}
+
+.gallery-heading {
+	text-align: center;
+}
+
+.discover-section {
+	width: 70%;
+	text-align: center;
+}
+
+.discover-section h2 {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+.about-us1 {
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-us1 img {
+	width: 460px;
+	height: auto;
+}
+
+.about-us1 .about1-details {
+	margin: 10px 20px;
+}
+
+.about-us1 h4 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.about1-details p {
+	text-align: left;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.gallery-section {
+	width: 30%;
+	text-align: center;
+}
+
+.gallery-section h2 {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+.gallery-section img {
+	width: 250px;
+	height: auto;
+}
+
+.gallery-section img:hover {
+	cursor: pointer;
+	border: 1px solid #03C988;
+}
