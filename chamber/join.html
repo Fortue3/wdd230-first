@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/large.css">
-	<link rel="stylesheet" type="text/css" href="css/medium.css">
-	<link rel="stylesheet" type="text/css" href="css/base.css">
+    <title>Join</title>
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+	<link rel="stylesheet" type="text/css" href="styles/medium.css">
+	<link rel="stylesheet" type="text/css" href="styles/base.css">
 </head>
 <body>
 
@@ -27,7 +24,7 @@
 				<li class="list-item"><a href="index.html">Home</a></li>
 				<li class="list-item"><a href="discover.html">Discover</a></li>
 				<li class="list-item"><a href="#">Directory</a></li>
-				<li class="list-item"><a href="#">Join</a></li>
+				<li class="list-item"><a href="join.html">Join</a></li>
 				<li class="list-item"><a href="#">Contact</a></li>
 			</ul>
 
@@ -68,56 +65,79 @@
 		</div>
 
 	</header>
-    
-   <div class="discover-main-container">
-	<div class="discover-hero">
-		<h1>Discover</h1>
-	</div>
-	<div class="discover-main-section">
-		<!-- <div class="discover-headings">
-			<div class="about-heading"> <h3>~ About Us ~</h3></div>
-			<div class="gallery-heading"> <h3>~ Gallery ~</h3></div>
-		</div> -->
-		<div class="discover-section">
-			<h2>~ About Us ~</h2>
-			<div class="about-us1">
-				<img src="images/preloader.gif" data-src="images/gweru.jpg" alt="Discover">
-				<div class="about1-details">
-					<h4>Our Target Audience</h4>
-					<p>
-						Our main target audience are typically local businesses and business owners. These include <b>small businesses, entrepreneurs, startups, and established companies of all sizes and industries</b>. <br>
-						We also target <b>local leaders, community members, investors, entrepreneurs and economic developers</b>. <br>
-						The aim is to provide resources and support for these businesses, such as networking opportunities, training, and advocacy on behalf of the business community. <br>
-						
-					</p>
-				</div>
-			</div>
+	<div class="join-container">
 
-			<div class="about-us1">
-				<div class="about1-details">
-					<p>
-						<b>Networking events:</b> We host networking events, such as mixers or networking breakfasts, to bring local businesses together and provide opportunities for them to connect and build relationships.
-						<br><br>
-						<b>Business education:</b> We ofer training and education opportunities for local business owners, such as workshops on marketing, accounting, or human resources.
-						<br><br>
-						<b>Referral service:</b> We also help business owners to connect with other businesses, by providing member's information through their website or directory
-					</p>
-				</div>
-				<img src="images/preloader.gif" data-src="images/Gweru-City-Hall.jpg" alt="Discover">
-			</div>
+		<div class="join-page-hero">
+			Join Us
+		</div>
 
-		</div>
-		<div class="gallery-section">
-			<h2>~ Gallery ~</h2>
-			<img src="images/preloader.gif" data-src="images/empower.jpg" alt="">
-			<img src="images/preloader.gif" data-src="images/zim-stands.jpg" alt="">
-			<img src="images/preloader.gif" data-src="images/garbage.jpg" loading="lazy" alt="">
-		</div>
-	</div>
+		<div class="join-main-container">
+
+			<div id="form_layout">
+				<div class='form-head'>
+					<h2>Fill in Your Detail To Join</h2>
+				</div>
+				<form onsubmit="formValidation()"  action="thankyou.html" >
+
+					<label for="firstname">Firstname:</label>
+					<input id='firstname' type='text' required>
+					<p id="p1"></p>
 	
-   </div>
+					<label for="lastname">Lastname:</label>
+					<input id='lastname' type='text' required>
+					<p id="p2"></p>
+	
+					<label for="bnsPos">Business Position:</label>
+					<input id='bnsPos' type='text' >
+					<p id="p3"></p>
+	
+					<label for="email">Email:</label>
+					<input id='email' type='email' placeholder="example@email.com" required>
+					<p id="p4"></p>
+	
+					<label>Phone Number:</label>
+					<input id='phone' type='tel' required>
+					<p id="p5"></p>
+	
+					<label for="bnsName">Business Name:</label>
+					<input id='bnsName' type='text' required>
+					<p id="p6"></p>
+	
+					<label>Membership Level:</label>
+					<select id='mLevel'>
+						<option>Please Choose</option>
+						<option>NP</option>
+						<option>Bronze</option>
+						<option>Silver</option>
+						<option>Gold</option>
+					</select>
+					<p id="p7"></p>
+	
+					<label>Business Description:</label>
+					<textarea id='bsnsDesc'></textarea>
+					<p id="p8"></p>
+	
+					<input id="submit" type='submit' value=' Join '>
+				</form>
+			</div>
 
-    <footer>
+			<div class="membership-levels">
+				<h2>Membership Level</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. </p>
+				<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+
+				<p> Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur.</p>
+
+				<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		
+	</div>
+
+	<footer>
 		<div class="footer-content">
 			<div class="footer-logo">
 				<picture>
@@ -140,9 +160,6 @@
 			<p>&copy; 2023 City Of Gweru | Fortunate Kwenda | WDD 230 Project | Last Modification: <script type="text/javascript"> document.write(new Date(document.lastModified))</script> </p>
 		</div>
 	</footer>
-
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/lazy-loading.js"></script>
-
+    <script src="js/validation.js"></script>
 </body>
 </html>

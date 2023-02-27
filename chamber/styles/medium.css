@@ -167,4 +167,20 @@
 		width: 300px;
 		height: auto;
 	}
+
+	/*=============== Join ==============*/
+	.join-main-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#form_layout {
+	    width: 93vw;
+	    padding: 10px;
+	}
+
+	.membership-levels {
+		margin-top: 10px;
+		width: 93vw;
+	}
 }

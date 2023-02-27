@@ -413,3 +413,87 @@ picture img {
 	cursor: pointer;
 	border: 1px solid #03C988;
 }
+
+/*=============== Join ==============*/
+
+.join-page-hero {
+	display: flex;
+	background-image: url("../images/row-bgimage-2.jpg");
+	background-size: cover;
+	height: 250px;
+	/*margin: 0 0 10px;*/
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: #03C988;
+	font-size: 38px;
+}
+
+.join-main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#form_layout {
+    width: 60%;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#form_layout .form-head {
+	background-color: #03C988;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+#form_layout label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#form_layout input {
+    margin-left: 60%;
+    align-items: right;
+    margin-right: 20px;
+    height: 30px;
+    width: 40%;
+}
+
+#form_layout select {
+    margin-left: 60%;
+    align-items: right;
+    margin-right: 20px;
+    height: 30px;
+    width: 40%;
+}
+
+#form_layout textarea {
+    margin-left: 60%;
+    align-items: right;
+    margin-right: 20px;
+    width: 40%;
+}
+
+#form_layout input[type=submit] {
+	margin-top: 10px;
+	background-color: #03C988;
+	border-radius: 10px;
+	border: none;
+}
+
+.membership-levels {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 38%;
+}
+
+.membership-levels p {
+	text-align: left;
+}
+
+.membership-levels p {
+	margin-top: 15px;
+}
