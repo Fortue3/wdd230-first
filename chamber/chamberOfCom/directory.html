@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Join</title>
-    <link rel="stylesheet" type="text/css" href="css/large.css">
+	<title>Directory</title>
+	<link rel="stylesheet" type="text/css" href="css/large.css">
 	<link rel="stylesheet" type="text/css" href="css/medium.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
@@ -65,76 +65,14 @@
 		</div>
 
 	</header>
-	<div class="join-container">
 
-		<div class="join-page-hero">
-			Join Us
+	<div class="discover-main-container">
+		<div class="discover-hero">
+			<h1>Diretory</h1>
 		</div>
 
-		<div class="join-main-container">
+		<div id="cardsContainer" class="cards"></div>
 
-			<div id="form_layout">
-				<div class='form-head'>
-					<h2>Fill in Your Detail To Join</h2>
-				</div>
-				<form onsubmit="formValidation()"  action="thankyou.html" >
-
-					<label for="firstname">Firstname:</label>
-					<input id='firstname' type='text' required>
-					<p id="p1"></p>
-	
-					<label for="lastname">Lastname:</label>
-					<input id='lastname' type='text' required>
-					<p id="p2"></p>
-	
-					<label for="bnsPos">Business Position:</label>
-					<input id='bnsPos' type='text' >
-					<p id="p3"></p>
-	
-					<label for="email">Email:</label>
-					<input id='email' type='email' placeholder="example@email.com" required>
-					<p id="p4"></p>
-	
-					<label>Phone Number:</label>
-					<input id='phone' type='tel' required>
-					<p id="p5"></p>
-	
-					<label for="bnsName">Business Name:</label>
-					<input id='bnsName' type='text' required>
-					<p id="p6"></p>
-	
-					<label>Membership Level:</label>
-					<select id='mLevel'>
-						<option>Please Choose</option>
-						<option>NP</option>
-						<option>Bronze</option>
-						<option>Silver</option>
-						<option>Gold</option>
-					</select>
-					<p id="p7"></p>
-	
-					<label>Business Description:</label>
-					<textarea id='bsnsDesc'></textarea>
-					<p id="p8"></p>
-	
-					<input id="submit" type='submit' value=' Join '>
-				</form>
-			</div>
-
-			<div class="membership-levels">
-				<h2>Membership Level</h2>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. </p>
-				<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
-
-				<p> Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur.</p>
-
-				<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-		</div>
-		
 	</div>
 
 	<footer>
@@ -160,6 +98,7 @@
 			<p>&copy; 2023 City Of Gweru | Fortunate Kwenda | WDD 230 Project | Last Modification: <script type="text/javascript"> document.write(new Date(document.lastModified))</script> </p>
 		</div>
 	</footer>
-    <script src="js/validation.js"></script>
+
+	<script src="js/directory.js"></script>
 </body>
 </html>

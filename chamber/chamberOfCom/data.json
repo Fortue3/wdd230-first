@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "companyName": "stylesDev",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/2.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "id": "2",
+        "companyName": "Engines",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/3.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "silver"
+    },
+    {
+        "id": "3",
+        "companyName": "MyCompany",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/phone.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "NP"
+    },
+    {
+        "id": "4",
+        "companyName": "stylesDev",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/2.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "silver"
+    },
+    {
+        "id": "5",
+        "companyName": "Engines",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/3.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "id": "6",
+        "companyName": "MyCompany",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/phone.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "id": "7",
+        "companyName": "stylesDev",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/2.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "Gold"
+    },
+    {
+        "id": "8",
+        "companyName": "Engines",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/3.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "Silver"
+    },
+    {
+        "id": "9",
+        "companyName": "MyCompany",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/phone.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "NP"
+    },
+    {
+        "id": "10",
+        "companyName": "Engines",
+        "companyDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, laboriosam amet. Delectus atque error, libero similique corrupti laudantium, autem nulla amet temporibus aliquam quae molestiae ratione excepturi, quam soluta deleniti!",
+        "companyImg": "images/3.png",
+        "companyAddress": "12 Main Street, Gweru",
+        "contact": 776606749,
+        "website": "http://facebook.com",
+        "membershipLevel": "Gold"
+    }
+]
