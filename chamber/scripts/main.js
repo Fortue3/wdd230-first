@@ -81,7 +81,7 @@ function displayWeather(){
     iconElement.innerHTML = `<img src="images/icons/${weather.iconId}.png"/>`;
     tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
     descElement.innerHTML = weather.description;
-    locationElement.innerHTML = `${weather.city}, ${weather.country}`;
+    locationElement.innerHTML = `${weather.city},${weather.country}`;
     windSpeed.innerHTML = `${weather.wind}`
     windChill.innerHTML = `${weather.windchill}`
 }
