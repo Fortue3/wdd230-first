@@ -15,6 +15,7 @@ async function directories () {
 
         article.classList.add('card')
         div.classList.add('text')
+        
 
         image.setAttribute('src', company.companyImg)
         h3.innerHTML = company.companyName
@@ -32,3 +33,45 @@ async function directories () {
 }
 
 directories()
+const url = "json/data.json";
+
+async function getData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    displayData(data.business);
+}
+
+getData();
+
+const displayData = (business) => {
+    const cards = document.querySelector('div.cards');
+
+    business.forEach((place) => {
+
+        let card = document.createElement('section');
+        let h2 = document.createElement('h2');
+        let image = document.createElement('img');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let web = document.createElement('a');
+
+        web.title = "Visit Website";
+        web.href = place.url;
+
+        image.setAttribute('src', place.image);
+        image.setAttribute('alt', `Picture of a business`);
+
+        h2.textContent = `${place.name}`;
+        address.textContent = `Address: ${place.address}`;
+        phone.textContent = `Phone Number: ${place.phone}`;
+        web.textContent = web.title;
+
+        card.appendChild(h2);
+        card.appendChild(image);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(web);
+
+        cards.appendChild(card);
+    }) 
+  };
