@@ -258,6 +258,7 @@ header {
 	min-height: 200px;
 	max-height: 200px;
 	text-align: center;
+	overflow: hidden;
 }
 
 .spotlight1 h3 {

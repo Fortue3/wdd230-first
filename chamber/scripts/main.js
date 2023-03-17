@@ -1,6 +1,8 @@
 const date = new Date();
 
 const d = date.toDateString()
+const year=date.getFullYear()
+document.getElementById('myYear').innerHTML = year
 
 document.getElementById('hdate').innerHTML = d
 
@@ -63,7 +65,7 @@ function getWeather(latitude, longitude){
             return data;
         })
         .then(function(data){
-            weather.temperature.value = Math.floor(data.main.temp - GWERU);
+            weather.temperature.value = Math.floor(data.main.temp - KELVIN);
             weather.description = data.weather[0].description;
             weather.iconId = data.weather[0].icon;
             weather.city = data.name;
@@ -81,7 +83,7 @@ function displayWeather(){
     iconElement.innerHTML = `<img src="images/icons/${weather.iconId}.png"/>`;
     tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
     descElement.innerHTML = weather.description;
-    locationElement.innerHTML = `${weather.city},${weather.country}`;
+    // locationElement.innerHTML = `${weather.city}, ${weather.country}`;
     windSpeed.innerHTML = `${weather.wind}`
     windChill.innerHTML = `${weather.windchill}`
 }

@@ -48,4 +48,5 @@ const mins = d.getMinutes();
 const sec = d.getSeconds();
 const fulldate = `${monthName}/${d.getDate()}/${year} ${hr}:${mins}:${sec}`;
 document.querySelector("#date2").textContent = "last updated:" + fulldate;
+document.querySelector("#myYear").textContent = year;
 
