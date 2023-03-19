@@ -1,3 +1,11 @@
+const date = new Date();
+
+const d = date.toDateString()
+const year=date.getFullYear()
+document.getElementById('myYear').innerHTML = year
+
+document.getElementById('hdate').innerHTML = d
+
 async function directories () {
     var res = await fetch('./data.json')
 
@@ -18,8 +26,9 @@ async function directories () {
 
         image.setAttribute('src', company.companyImg)
         h3.innerHTML = company.companyName
-        let desc = company.companyDesc
-        p.innerHTML = desc.substr(0, 50)
+        // let desc = company.companyDesc
+        // p.innerHTML = desc.substr(0, 50)
+        p.innerHTML = company.companyDesc
         btn.innerHTML = "View More"
 
         div.append(h3, p, btn)
