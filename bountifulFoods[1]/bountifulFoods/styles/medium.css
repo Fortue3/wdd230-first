@@ -1,0 +1,214 @@
+@media only screen and (max-width: 768px) {
+	nav {
+		flex-direction: column; 
+		position: relative;
+		height: 70px;
+	}
+
+	.logo h1 {
+		position: absolute;
+		top: 10px;
+		left: 32px;
+        font-size: 2rem;
+	}
+
+	.menu {
+		display: block;
+		position: absolute;
+		top: 18px;
+		right: 32px;
+	}
+
+	nav ul {
+		background-color: whitesmoke;
+		display: none;
+	}
+
+	.showmenu {
+		display: block;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	nav ul li {
+		display: block;
+		padding: 2% 0;
+		width: 94vw;
+		/*margin: 0 200px 0 20px;*/
+	}
+
+	nav ul li a {
+		color: #222;
+	}
+
+    nav ul li a:hover {
+        color: #2ccf31;
+    }
+
+    .weather-container {
+        padding: 1% 1%;
+    }
+
+    .wrapper {
+        margin: 5px 5px;
+    }
+
+    .wrapper header {
+        font-size: 18px;
+        padding: 10px 10px;
+        height: 50px;
+    }
+
+    .weather-part .temp {
+        font-size: 36px;
+    }
+
+    .weather-part .temp .deg {
+        font-size: 24px;
+    }
+
+    .weather-part .weather {
+        font-size: 18px;
+    }
+
+    .weather-part .bottom-details {
+        flex-direction: column;
+    }
+
+    .bottom-details .column {
+        padding: 5px 0;
+    }
+
+    .column i {
+        font-size: 26px;
+    }
+
+    .column.humidity {
+        border-top: 1px solid #bfbfbf;
+    }
+
+    .details .temp,
+    .humidity span {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: -3px;
+    }
+
+    .details .temp .deg {
+        margin: 0;
+        font-size: 16px;
+        padding: 0 2px 0 1px;
+    }
+
+    .details p {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .tot-about-costal {
+        padding: 2% 1%;
+    }
+
+    .tot-about-costal .mk-juice {
+        flex: 2;
+        margin-right: 5px;
+    }
+
+    .tot-about-costal .costal-hist {
+        flex: 2;
+        padding: 5px 10px;
+    }
+
+    /* --------------- About ----------------- */
+
+    .about-info-container{
+        margin: 40px 5%;
+        height: 100%;
+    }
+
+    .about-info-container .about-container{
+        flex-direction: column-reverse;
+    }
+
+   .aboutt-info-container .about-container .left-side{
+        width: 100%;
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .about-info-container .about-container .left-side::before{
+        display: none;
+    }
+    .about-info-container .about-container .right-side{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .about-container .right-side .input-box {
+        width: 100%;
+    }
+
+    /* --------------- Fresh -------------------- */
+    .fresh-info-container {
+        margin: 40px 5%;
+        height: 100%;
+    }
+
+    .fresh-container {
+        flex-direction: column-reverse;
+    }
+
+    .fresh-container .right-side {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .fresh-container .right-side img {
+        width: 70%;
+        height: 50%;
+    }
+
+	/* --------------- Contact ------------------ */
+	.contact-info-container{
+        margin: 40px 5%;
+        height: 100%;
+    }
+
+   .contact-info-container .content .left-side{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contact-info-container .content .left-side::before{
+        display: none;
+    }
+    .contact-info-container .content .right-side{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact-container .right-side .input-box {
+        width: 100%;
+    }
+
+    .work-hours span {
+        font-size: 14px;
+    }
+
+    /* ------------ Footer ------------- */
+    footer .row {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    footer .logo-name{
+        width: 90%;
+    }
+    footer {
+        position: unset;
+    }
+}

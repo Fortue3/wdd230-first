@@ -1,0 +1,90 @@
+@media only screen and (max-width: 480px) {
+	nav {
+		flex-direction: column; 
+		position: relative;
+		height: 70px;
+	}
+
+	.logo h1 {
+		position: absolute;
+		top: 10px;
+		left: 32px;
+        font-size: 1.7rem;
+	}
+
+	.menu {
+		display: block;
+		position: absolute;
+		top: 18px;
+		right: 32px;
+	}
+
+	nav ul {
+		background-color: whitesmoke;
+		display: none;
+	}
+
+	.showmenu {
+		display: block;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	nav ul li {
+		display: block;
+		padding: 2% 0;
+		width: 400px;
+		/*margin: 0 200px 0 20px;*/
+	}
+
+	nav ul li a {
+		color: #222;
+	}
+
+	/* ------------- Index --------------- */
+
+	.hero {
+		height: 200px;
+	}
+
+	.weather-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.weather-container .weather {
+		margin: 10px;
+	}
+
+	.tot-about-costal {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.tot-about-costal .tot-drinks {
+		flex: 1;
+		text-align: center;
+		border-top: 2px solid #00337C;
+		border-right: none;
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+	
+	.tot-about-costal .mk-juice {
+		flex: 1;
+		text-align: center;
+		border-top: 2px solid #00337C;
+		border-right: none;
+		margin-top: 20px;
+		padding-top: 20px;
+	}
+
+    /* ------------- Footer -------------- */
+
+    footer {
+        position: unset;
+    }
+ 
+} 
